@@ -11,7 +11,7 @@
   * **For example:** this is a image with label '3'
   
   <div align=center>
-  <img src='https://github.com/Linsong-Xu/alexnet_with_tensorflow/blob/master/zebra.jpeg'>
+  <img src='https://github.com/Linsong-Xu/alexnet_with_tensorflow/blob/master/happy.jpeg'>
   </div>
   
   * I found this data from kaggle, but this competition may be temporary, because it is a machine learning course of NTU, maybe you can study machine learning or get some information from [here](http://speech.ee.ntu.edu.tw/~tlkagk/courses.html)
