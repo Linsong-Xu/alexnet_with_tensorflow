@@ -1,9 +1,10 @@
 import scipy.misc
 import cv2
 import numpy as np
+import os
 
 datas = []
-images = './images'
+images_path = './images'
 
 with open('train.csv') as file:
     for line_id, line in enumerate(file):
