@@ -3,6 +3,7 @@ import cv2
 import numpy as np
 
 datas = []
+images = './images'
 
 with open('train.csv') as file:
     for line_id, line in enumerate(file):
@@ -13,6 +14,9 @@ with open('train.csv') as file:
 # 28709 images
 feats, labels, line_ids = zip(*datas)
 feats = np.asarray(feats)
+
+if not os.path.isdir(images_path):
+    os.makedirs(images_path)
 
 for i in range(len(feats)):
     scipy.misc.imsave('./images/{}.jpg'.format(i), np.mat(feats[i]))
