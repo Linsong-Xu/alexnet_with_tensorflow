@@ -39,3 +39,6 @@
   
   * Finally, run use_my_para.py, it use the trained model to predict the human facial expression(In my experiment: I just use 1000 images as train data, 200 images as valid data, and epoch is 10, I get the accuracy is about 50%, I don't know can I get a better result if I use the whole data to train...I hope so)
  
+## Reference:
+
+[1] : ImageNet Classification with Deep Convolutional Neural Networks
